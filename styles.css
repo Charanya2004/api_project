@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffecd2, #fcb69f);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#search {
+    padding: 12px;
+    width: 75%;
+    margin: 15px 0;
+    border: 2px solid #ff6f61;
+    border-radius: 25px;
+    outline: none;
+}
+
+#searchButton {
+    padding: 12px 25px;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#searchButton:hover {
+    background-color: #ff3e29;
+}
+
+/* Recipe Card Styles */
+.recipe-card {
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    margin: 15px 0;
+    padding: 15px;
+    background-color: #fff;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.recipe-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.recipe-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.recipe-card h2 {
+    font-size: 1.5em;
+    color: #ff6f61;
+    margin: 0 0 10px;
+}
+
+.recipe-card p {
+    color: #555;
+    font-size: 0.9em;
+}
+
+.recipe-card a {
+    color: #ff6f61;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.recipe-card a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 1.8em;
+    color: #ff6f61;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+}
+.hidden {
+    display: none;
+}
+
+#goBackButton {
+    padding: 12px 25px;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+#goBackButton:hover {
+    background-color: #ff3e29;
+}
